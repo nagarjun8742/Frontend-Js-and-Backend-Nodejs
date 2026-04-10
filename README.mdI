@@ -1,0 +1,7 @@
+include the node modules and 
+create the node js cli
+We want to create the manually hyrierche router server and model  
+npm init 
+npm install express
+Run : node server.js
+
