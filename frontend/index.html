@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT DETAILS</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+    <form class="form-box">
+         <h2>STUDENT DETAILS</h2>
+        <label>Student Name</label>
+    <input type="text" id="name" placeholder="Enter the name">
+    <label>Student Percentage</label>
+    <input type="text" id="percentage" placeholder="Enter the percentage">
+    <label>Student Course</label>
+    <input type="text" id="course" placeholder="Enter the course">
+    <button id="submitBtn" onclick="addStudent()">Add</button>
+    </form> 
+    <div class="box">
+   
+    <h2>STUDENT LIST</h2>
+    <!-- <table border="1" id="studentTable"> -->
+        <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Percentage</th>
+            <th>Course</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="list"></tbody>
+</table>
+     </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
